@@ -8,3 +8,8 @@ input BookInput {
     title: String!
     author: String!
 }
+
+input UpdateBookInput {
+    title: String,
+    author: String
+}
