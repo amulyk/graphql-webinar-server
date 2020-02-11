@@ -1,4 +1,4 @@
-
+#import "../bus/book/types.graphql"
 
 type Query {
     books: [Book!]!
