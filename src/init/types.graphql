@@ -2,4 +2,9 @@
 
 type Query {
     books: [Book!]!
+    book(id: ID!): Book
+}
+
+type Mutation {
+    addBook(book: BookInput!): Book
 }
